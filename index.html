@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заработок на рекламе</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5667179552999516" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Заработок на рекламе</h1>
+    <p>Просматривайте рекламу и получайте вознаграждение в криптовалюте!</p>
+
+    <div id="ads-container">
+      <!-- Google AdSense Block -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-5667179552999516"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"></ins>
+    </div>
+
+    <div id="controls">
+      <label for="wallet-input">Ваш криптокошелек:</label>
+      <input type="text" id="wallet-input" placeholder="Введите адрес кошелька">
+      <button id="save-wallet-btn">Сохранить кошелек</button>
+
+      <p id="balance-display">Ваш баланс: 0.00 USDT</p>
+      <button id="withdraw-btn" disabled>Запросить вывод</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
